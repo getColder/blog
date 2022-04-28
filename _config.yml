@@ -3,12 +3,21 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
+<<<<<<< HEAD
 title: Hexo
 subtitle: ''
 description: ''
 keywords:
 author: John Doe
 language: en
+=======
+title: 'dev-Bear'
+subtitle: '任何足够先进的科技,都与魔法无异'
+description: '一些描述..'
+keywords:
+author: Jiff
+language: zh-cn
+>>>>>>> main
 timezone: ''
 
 # URL
@@ -97,9 +106,21 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
+<<<<<<< HEAD
 theme: landscape
+=======
+theme: meilidu
+>>>>>>> main
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
+<<<<<<< HEAD
   type: ''
+=======
+  type: 'git'
+  repo: git@github.com:getColder/getColder.github.io.git
+  branch: main
+  url: https://getColder.github.io
+  root: /
+>>>>>>> main
